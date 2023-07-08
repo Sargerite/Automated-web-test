@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
 
-class Locators():
+class Login_Page_Locators():
 
     # locators
     LOGIN_PAGE_URL = "https://www.saucedemo.com/"
