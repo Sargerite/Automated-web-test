@@ -8,5 +8,6 @@ class Login_Page_Locators():
     USERNAME_FIELD = (By.ID, 'user-name')
     PASSWORD_FIELD = (By.ID, "password")
     LOGIN_BTN = (By.ID, "login-button")
+    ERROR_MSG = (By.XPATH, '//*[@id="login_button_container"]/div/form/div[3]/h3')
     USERNAME = 'standard_user'
     PASSWD = 'secret_sauce'

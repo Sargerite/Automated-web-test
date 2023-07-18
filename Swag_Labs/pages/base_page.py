@@ -29,3 +29,7 @@ class BasePage():
 
     def get_page_title(self):
         """Returns the title of the current page."""
+
+    def wait_for_url_to_load(self, driver, timeout, url):
+        wait = WebDriverWait(driver, timeout)
+        wait.until(EC.url_to_be(url))
